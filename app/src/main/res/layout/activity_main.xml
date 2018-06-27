@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#000"
+    android:layout_gravity="center"
+    tools:context="com.praveen.pilani.freeinternetapp.MainActivity">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="40dp"
+        android:layout_marginBottom="40dp"
+        app:cardBackgroundColor="#000">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#ff0099"
+            android:textStyle="bold"
+            android:text="Free Internet App"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:padding="10dp"/>
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ff0099"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="40dp"
+        android:layout_marginTop="10dp"
+        app:cardBackgroundColor="#ff0099">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:text="Get Free Data"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:padding="10dp"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ff0099"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="40dp"
+        android:layout_marginTop="20dp"
+        app:cardBackgroundColor="#ff0099">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:text="Connect Using SIM"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:padding="10dp"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ff0099"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="40dp"
+        android:layout_marginTop="20dp"
+        app:cardBackgroundColor="#ff0099">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:text="Connect Using Wi-Fi"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:padding="10dp"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ff0099"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="40dp"
+        android:layout_marginTop="20dp"
+        app:cardBackgroundColor="#ff0099">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:text="Connect Using Proxy"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:padding="10dp"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ff0099"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="40dp"
+        android:layout_marginTop="20dp"
+        app:cardBackgroundColor="#ff0099">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:text="Connect Using VPN"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:padding="10dp"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv6"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ff0099"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="40dp"
+        android:layout_marginTop="20dp"
+        app:cardBackgroundColor="#ff0099">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:text="Connect Using Hacking"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:padding="10dp"/>
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+</LinearLayout>

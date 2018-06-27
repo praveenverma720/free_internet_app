@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    tools:context=".TelecomComp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--airtel-->
+            <TextView
+                android:id="@+id/airtel"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="#ff0099"
+                android:gravity="center"
+                android:text="Airtel"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <!--vodafone-->
+            <TextView
+                android:id="@+id/vodafone"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="#ff0099"
+                android:gravity="center"
+                android:text="Vodafone"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <!--china mobile-->
+            <TextView
+                android:id="@+id/chinamobile"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="#ff0099"
+                android:gravity="center"
+                android:text="China Mobile"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <!--claro-->
+            <TextView
+                android:id="@+id/claro"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="#ff0099"
+                android:gravity="center"
+                android:text="Claro"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <!--jio-->
+            <TextView
+                android:id="@+id/jio"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="#ff0099"
+                android:gravity="center"
+                android:text="Jio"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <!--BSNL-->
+            <TextView
+                android:id="@+id/bsnl"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="#ff0099"
+                android:gravity="center"
+                android:text="BSNL"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <!--China Unicom-->
+            <TextView
+                android:id="@+id/chinaunicom"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="#ff0099"
+                android:gravity="center"
+                android:text="China Unicom"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <!--Movistar-->
+            <TextView
+                android:id="@+id/movistar"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="#ff0099"
+                android:gravity="center"
+                android:text="Movistar"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <!--China Telecom-->
+            <TextView
+                android:id="@+id/chinatelecom"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="#ff0099"
+                android:gravity="center"
+                android:text="China Telecom"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <!--Veon-->
+            <TextView
+                android:id="@+id/veon"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="#ff0099"
+                android:gravity="center"
+                android:text="Veon"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <!--MTN Group-->
+            <TextView
+                android:id="@+id/mtn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="#ff0099"
+                android:gravity="center"
+                android:text="MTN"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <!--Orange-->
+            <TextView
+                android:id="@+id/orange"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="#ff0099"
+                android:gravity="center"
+                android:text="Orange"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <!--Telkomsel-->
+            <TextView
+                android:id="@+id/tel"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="#ff0099"
+                android:gravity="center"
+                android:text="Telkomsel"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <!--Telenor-->
+            <TextView
+                android:id="@+id/telenor"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="#ff0099"
+                android:gravity="center"
+                android:text="Telenor"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <!--T-Mobile-->
+            <TextView
+                android:id="@+id/tmobile"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="#ff0099"
+                android:gravity="center"
+                android:text="T-Mobile"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <!--STC-->
+            <TextView
+                android:id="@+id/stc"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="#ff0099"
+                android:gravity="center"
+                android:text="STC"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <!--Etisalat-->
+            <TextView
+                android:id="@+id/eti"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="#ff0099"
+                android:gravity="center"
+                android:text="Etisalat"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <!--AT&T Mobility-->
+            <TextView
+                android:id="@+id/att"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="#ff0099"
+                android:gravity="center"
+                android:text="AT&amp;T Mobility"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <!--MTS-->
+            <TextView
+                android:id="@+id/mts"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="#ff0099"
+                android:gravity="center"
+                android:text="MTS"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <!--TIM-->
+            <TextView
+                android:id="@+id/tim"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="#ff0099"
+                android:gravity="center"
+                android:text="TIM"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <!--Other-->
+            <TextView
+                android:id="@+id/others"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#ff0099"
+                android:gravity="center"
+                android:text="Other"
+                android:textColor="#FFFFFF"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

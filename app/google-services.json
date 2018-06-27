@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "700647924174",
+    "firebase_url": "https://free-internet-app-ba41a.firebaseio.com",
+    "project_id": "free-internet-app-ba41a",
+    "storage_bucket": "free-internet-app-ba41a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700647924174:android:dd047d62ce0feece",
+        "android_client_info": {
+          "package_name": "com.praveen.pilani.freeinternetapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "700647924174-ckqsnec1f3iepor68npk010iejfgah7k.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "700647924174-ckqsnec1f3iepor68npk010iejfgah7k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHE5nrqvZunufNgeBSpRHsdV6oq81G3oU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
